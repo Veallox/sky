@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky - Browser-Based Ethical Hacking Workspace</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">Sky</div>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#workflows">Workflows</a>
+          <a href="#security">Security</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <button class="primary">Request Access</button>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Browser-powered ethical hacking</p>
+          <h1>A secure Linux workstation that runs in any browser.</h1>
+          <p class="subtitle">
+            Sky is a web platform that feels like Chrome or Firefox, but launches full Linux desktops,
+            terminals, and vetted security tools for ethical hacking—all inside a zero-trust sandbox.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Launch Demo</button>
+            <button class="secondary">Talk to an Expert</button>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <span class="metric">90s</span>
+              <span>Average workspace spin-up</span>
+            </div>
+            <div>
+              <span class="metric">200+</span>
+              <span>Preinstalled tools</span>
+            </div>
+            <div>
+              <span class="metric">SOC 2</span>
+              <span>Compliant infrastructure</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-header">
+            <span>sky://workspace</span>
+            <div class="window-controls">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="terminal">
+              <div class="terminal-line">
+                <span class="prompt">sky@lab</span>:<span class="path">~</span>$ start-session
+              </div>
+              <div class="terminal-line">✔ Workspace ready: kali-linux-2025.2</div>
+              <div class="terminal-line">✔ Tools loaded: nmap, burpsuite, wireshark</div>
+              <div class="terminal-line">✔ Team channel: pentest-ops</div>
+              <div class="terminal-line">
+                <span class="prompt">sky@lab</span>:<span class="path">~</span>$ launch desktop
+              </div>
+            </div>
+            <div class="desktop-preview">
+              <div class="widget">
+                <h4>Recon</h4>
+                <p>Integrated scanners + attack surface maps</p>
+              </div>
+              <div class="widget">
+                <h4>Collaboration</h4>
+                <p>Live co-browsing and shared terminals</p>
+              </div>
+              <div class="widget">
+                <h4>Compliance</h4>
+                <p>Audit trails and policy guardrails</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="features" class="section">
+      <div class="section-title">
+        <h2>Everything you need for ethical hacking, in one browser tab.</h2>
+        <p>
+          Sky combines the simplicity of a web browser with the power of a hardened Linux distro so
+          security teams can ship faster without losing control.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature">
+          <h3>Linux desktops on demand</h3>
+          <p>Spin up Kali, Ubuntu, or custom images with GPU acceleration and isolated networks.</p>
+        </div>
+        <div class="feature">
+          <h3>Browser-native terminal</h3>
+          <p>Persistent terminals with secure secrets injection, session recording, and auto-rotation.</p>
+        </div>
+        <div class="feature">
+          <h3>Prebuilt toolchains</h3>
+          <p>Curated ethical hacking stacks, plus a marketplace for approved extensions.</p>
+        </div>
+        <div class="feature">
+          <h3>Policy guardrails</h3>
+          <p>IP allowlists, scope enforcement, and export controls embedded into every workspace.</p>
+        </div>
+        <div class="feature">
+          <h3>Zero-trust streaming</h3>
+          <p>Pixels stream to the browser, never the data—keeping sensitive assets inside your VPC.</p>
+        </div>
+        <div class="feature">
+          <h3>Telemetry + reporting</h3>
+          <p>Audit-ready logs, command history, and automatic findings export to Jira or Slack.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflows" class="section dark">
+      <div class="section-title">
+        <h2>Designed for modern security workflows.</h2>
+        <p>From red teams to compliance reviewers, Sky streamlines how security work gets done.</p>
+      </div>
+      <div class="workflow-grid">
+        <div class="workflow-card">
+          <h3>Red team operations</h3>
+          <ul>
+            <li>Isolated labs with ephemeral IPs</li>
+            <li>Adversary emulation playbooks</li>
+            <li>Multi-tenant tool silos</li>
+          </ul>
+        </div>
+        <div class="workflow-card">
+          <h3>Blue team verification</h3>
+          <ul>
+            <li>Guided incident response terminals</li>
+            <li>Safe replay of alerts + logs</li>
+            <li>Secure data exfiltration controls</li>
+          </ul>
+        </div>
+        <div class="workflow-card">
+          <h3>Training & enablement</h3>
+          <ul>
+            <li>Shareable lab environments</li>
+            <li>Scenario-based learning paths</li>
+            <li>Progress tracking for mentors</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="security" class="section">
+      <div class="section-title">
+        <h2>Enterprise security by design.</h2>
+        <p>Run offensive security programs while keeping compliance and governance teams happy.</p>
+      </div>
+      <div class="security-grid">
+        <div>
+          <h4>Identity-first access</h4>
+          <p>SSO, MFA, and just-in-time access approvals are built into every session.</p>
+        </div>
+        <div>
+          <h4>Scoped engagement controls</h4>
+          <p>Define allowed targets, schedules, and escalation rules before launching a lab.</p>
+        </div>
+        <div>
+          <h4>Immutable audit trails</h4>
+          <p>Capture terminal sessions, file changes, and tool usage for internal reviews.</p>
+        </div>
+        <div>
+          <h4>Team-ready collaboration</h4>
+          <p>Invite teammates to share terminals and handoff sessions with chat annotations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section pricing">
+      <div class="section-title">
+        <h2>Flexible plans for every security team.</h2>
+        <p>Start with a pilot and scale to global programs without provisioning new hardware.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Starter Lab</h3>
+          <p class="price">$99 <span>/month</span></p>
+          <ul>
+            <li>2 concurrent workspaces</li>
+            <li>Standard tool library</li>
+            <li>Email support</li>
+          </ul>
+          <button class="secondary">Start Pilot</button>
+        </div>
+        <div class="pricing-card highlight">
+          <div class="badge">Most popular</div>
+          <h3>Team Ops</h3>
+          <p class="price">$399 <span>/month</span></p>
+          <ul>
+            <li>10 concurrent workspaces</li>
+            <li>Shared terminal sessions</li>
+            <li>Compliance reporting</li>
+          </ul>
+          <button class="primary">Upgrade to Team</button>
+        </div>
+        <div class="pricing-card">
+          <h3>Enterprise</h3>
+          <p class="price">Custom</p>
+          <ul>
+            <li>Unlimited workspaces</li>
+            <li>Dedicated VPC deployment</li>
+            <li>24/7 concierge support</li>
+          </ul>
+          <button class="secondary">Contact Sales</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div>
+        <h2>Build your ethical hacking platform in days, not months.</h2>
+        <p>Give your team a browser-based Linux lab that is fast, secure, and easy to use.</p>
+      </div>
+      <button class="primary">Get early access</button>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <div class="logo">Sky</div>
+        <p>Secure browser workspaces for ethical hacking teams.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#workflows">Workflows</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Careers</a>
+          <a href="#">Security</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="mailto:hello@sky.dev">hello@sky.dev</a>
+          <a href="#">Schedule a demo</a>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
